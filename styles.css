@@ -537,6 +537,12 @@ section {
   padding-bottom: 2rem;
 }
 
+@media (min-width: 900px) {
+  .gallery .wrap {
+    width: min(100% - 2rem, 1400px);
+  }
+}
+
 .gallery__grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -553,6 +559,13 @@ section {
 
 .gallery__grid img {
   width: 100%;
+  max-width: none;
+  height: auto;
+}
+
+.gallery__grid a img {
+  width: 100% !important;
+  height: auto !important;
 }
 
 .gallery__grid a:hover {
