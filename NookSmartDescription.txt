@@ -1,0 +1,137 @@
+• Turn your miniature book nook scenes into smart lighting displays.
+• NookSmart replaces the battery pack in most book nook kits and lets you control the lights with Apple Home, Amazon Alexa, or your phone.
+• Schedule them, dim them, or turn them on with your voice.
+
+Key Features:
+✔ Plug-and-Play Installation
+Simply replace the existing battery pack in your book nook kit.
+
+✔ Works with Apple Home and Amazon Alexa
+Control your lights with voice or your smart home app.
+
+✔ WiFi Connected – No Hub Needed
+Connects directly to your home WiFi network.
+
+✔ Scheduling & Automation
+Turn your book nooks on automatically every evening.
+
+✔ Full Brightness Control
+Adjust lighting from 1% to 100% brightness.
+
+✔ Name Each Scene
+Give each book nook a custom name like:
+• Owl Bookstore
+• Uncle Joe’s Pizzeria
+• Sherlock’s Study
+
+✔ Control With Your Voice
+“Alexa, turn on Owl Bookstore.”
+"Siri, set Sherlock's Study to 50%"
+
+✔ Designed and Assembled in the USA by Humans
+
+How It Works:
+1. Remove the battery pack from your book nook kit
+2. Install the NookSmart module
+3. Connect it to your WiFi network
+4. Add it to Apple Home or Alexa
+5. Control your lights with voice, phone, or schedule
+
+Setup typically takes under 5 minutes.
+
+Compatibility:
+Works with most miniature lighting systems including:
+• CuteBee kits
+• DIY book nook builds
+• Dollhouse LED lighting
+
+LED voltage supported: 3–5V miniature LED systems
+
+If you’re unsure whether your kit is compatible, send a message and I’ll help!
+
+What’s Included:
+1 × NookSmart WiFi controller
+1 × Installation guide
+1 × HomeKit setup QR code
+Optional: Adapter for twisted wire setup. This is for Rolife and other kits that require you to twist the LED wires together with bare wires from the battery. Be sure to select this option if your kit uses twisted wires.
+
+Perfect Gift For:
+• Book lovers
+• Miniature hobbyists
+• Dollhouse collectors
+• Makers and DIY hobbyists
+
+FAQ:
+Q: Does this require a special hub?
+A: NookSmart connects directly to WiFi. To use Apple Home automation, you may need a HomeKit Control device. To use Alexa you will need an Echo device.
+
+Q: Does it work with Apple HomeKit?
+A: Yes.
+It works with:
+• Apple Home
+• Siri
+• Amazon Alexa
+
+Q: Can I dim the lights?
+A: Yes. Brightness can be set anywhere from 1% to 100%.
+
+Q: Can I install multiple NookSmart devices?
+A: Yes. Each book nook can be controlled independently.
+
+
+Setup Instructions:
+
+Product features:
+•	Plug and Play installation – replaces the battery pack
+•	Works with Apple Home, Siri, and Amazon Alexa
+•	Schedule your book nooks to turn on and off at specific times and days
+•	Dim the lights to any brightness between 1% and 100%
+•	Name each device to match the specific book nook
+•	Say “Alexa turn on Uncle Joe’s Pizzaria” or “Siri, set Owl Bookstore to 50%”
+•	Works with your existing WiFi network – no hubs or other hardware needed*
+•	Retains touch switch functionality for manual on/off
+•	Designed and assembled in the USA by humans
+
+Installation and Setup:
+1.	Unplug the light connector (two wires) from the battery pack and plug it into the small socket on the NookSmart.
+2.	Unplug the touch switch connector (three wires) from the battery pack and plug it into the large socket on the NookSmart. If your book nook does not have a touch switch, you can leave this socket unplugged.
+3.	Connect the USB-C cable to the NookSmart and connect it to power.
+
+WiFi Setup:
+1.	The LED lights will immediately start blinking quickly. 
+2.	Press the setup button with a paperclip two times within 5 seconds.
+3.	The lights should start to blink slowly.
+4.	When the lights are blinking slowly, connect your phone or other device to the WiFi network called NookSmart-Setup. If asked for a WiFi password, enter 12345678.
+5.	Open a web browser and enter 192.168.4.1
+6.	You should see the setup screen. Select your WiFi network and enter its password. Below that set the name for the device and set the gamma value to scale brightness then click to save your settings. See below for on-device scheduling.
+7.	Press the setup button again once or unplug and re-plug the USB to restart.
+
+Apple Home Setup:
+1.	Open the Home app and choose Add Accessory.
+2.	Scan this QR code:
+ 
+3.	Follow the on-screen prompts to add the device to Apple Home – it should use the name you set in the previous step.
+4.	If the QR code does not work, you can manually select and add the device using pairing code 4663-7726.
+5.	Once setup, you can say things like “Siri, turn on [name]”, “Siri, turn off [name]”, and “Siri, set [name] to 50%”
+
+Amazon Alexa Setup:
+1.	Say “Alexa, search for new devices” 
+2.	After a few moments it should locate your device and name it the same name you set in the main setup.
+3.	Once setup, you can say things like “Alexa, turn on [name]”, “Alexa, turn off [name]”, and “Alexa, set [name] to 50%”
+
+On-Device Scheduling
+You can set your own schedules for on/off and brightness right in the setup portal. 
+1.	Set your time zone for accurate time – the device will automatically keep time when this is set.
+2.	Click or tap the Add Schedule button. 
+3.	Set the time and days of the week, then choose the action. If you select Turn On, you can also set the brightness. 
+4.	Click or tap the trash can icon to delete a schedule event
+5.	Toggle the Enabled option to temporarily turn off an event without deleting it
+6.	Add more events by clicking the Add Schedule button. You can add up to 10 events.
+7.	Click or tap Save Settings at the bottom and let the device restart for the schedule to take effect.
+
+Sharing With Friends (optional):
+Share your cool new setup on social media
+•	Share videos showing off your new smart lighting setup.
+•	Spread the word among friends and book nook social media groups.
+•	Don’t forget Pinterest and Instagram!
+•	Let everyone know where you got NookSmart.
