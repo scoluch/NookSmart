@@ -543,24 +543,16 @@ section {
   gap: 0.75rem;
 }
 
-@media (min-width: 640px) {
-  .gallery__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 900px) {
-  .gallery__grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
 .gallery__grid a {
   display: block;
   border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid var(--border);
   transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gallery__grid img {
+  width: 100%;
 }
 
 .gallery__grid a:hover {
@@ -571,13 +563,6 @@ section {
 .gallery__grid a:focus-visible {
   outline: 2px solid var(--accent-blue);
   outline-offset: 3px;
-}
-
-/* Audience */
-.audience .audience__tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
 }
 
 /* FAQ */
