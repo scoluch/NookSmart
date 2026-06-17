@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
+  
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18227521272"></script>
 <script>
@@ -23,6 +26,12 @@
       'event_callback': callback
     });
     return false;
+  }
+
+  function gtag_report_feature_click(feature) {
+    gtag('event', 'feature_click', {
+      feature_name: feature
+    });
   }
 </script>
   <meta charset="utf-8" />
@@ -266,7 +275,7 @@ src="https://www.facebook.com/tr?id=2030202000910264&ev=PageView&noscript=1"
       <div class="wrap">
         <h2 id="features-icons-title" class="section-title">NookSmart Features</h2>
         <div class="icon-grid">
-          <a class="icon-tile" href="#feature-plug-play">
+          <a class="icon-tile" href="#feature-plug-play" onclick="gtag_report_feature_click('plug-play')">
             <div class="icon-tile__icon" aria-hidden="true">
               <img src="icons/plug-16.svg" alt="" width="64" height="64" class="icon-tile__svg" />
             </div>
@@ -275,7 +284,7 @@ src="https://www.facebook.com/tr?id=2030202000910264&ev=PageView&noscript=1"
               <span>NookSmart replaces the battery pack — no soldering</span>
             </div>
           </a>
-          <a class="icon-tile" href="#feature-usb-powered">
+          <a class="icon-tile" href="#feature-usb-powered" onclick="gtag_report_feature_click('usb-powered')">
             <div class="icon-tile__icon" aria-hidden="true">
               <img src="icons/usb-c.svg" alt="" width="64" height="64" class="icon-tile__svg" />
             </div>
@@ -284,7 +293,7 @@ src="https://www.facebook.com/tr?id=2030202000910264&ev=PageView&noscript=1"
               <span>Always-on USB power—your smart battery eliminator</span>
             </div>
           </a>
-          <a class="icon-tile" href="#feature-wifi">
+          <a class="icon-tile" href="#feature-wifi" onclick="gtag_report_feature_click('wifi')">
             <div class="icon-tile__icon" aria-hidden="true">
               <img src="icons/wifi.svg" alt="" width="64" height="64" class="icon-tile__svg" />
             </div>
@@ -293,7 +302,7 @@ src="https://www.facebook.com/tr?id=2030202000910264&ev=PageView&noscript=1"
               <span>No extra smart home hub required</span>
             </div>
           </a>
-          <a class="icon-tile" href="#feature-voice">
+          <a class="icon-tile" href="#feature-voice" onclick="gtag_report_feature_click('voice')">
             <div class="icon-tile__icon" aria-hidden="true">
               <img src="icons/microphone.svg" alt="" width="64" height="64" class="icon-tile__svg" />
             </div>
@@ -302,7 +311,7 @@ src="https://www.facebook.com/tr?id=2030202000910264&ev=PageView&noscript=1"
               <span>Turn on and off with Siri or Alexa</span>
             </div>
           </a>
-          <a class="icon-tile" href="#feature-schedule">
+          <a class="icon-tile" href="#feature-schedule" onclick="gtag_report_feature_click('schedule')">
             <div class="icon-tile__icon" aria-hidden="true">
               <img src="icons/clock.svg" alt="" width="64" height="64" class="icon-tile__svg" />
             </div>
@@ -311,7 +320,7 @@ src="https://www.facebook.com/tr?id=2030202000910264&ev=PageView&noscript=1"
               <span>Turn on and off automatically every day</span>
             </div>
           </a>
-          <a class="icon-tile" href="#feature-dimming">
+          <a class="icon-tile" href="#feature-dimming" onclick="gtag_report_feature_click('dimming')">
             <div class="icon-tile__icon" aria-hidden="true">
               <img src="icons/lightbulb-on-outline.svg" alt="" width="64" height="64" class="icon-tile__svg" />
             </div>
