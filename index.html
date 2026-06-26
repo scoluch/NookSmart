@@ -4,14 +4,15 @@
 
 
   
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18227521272"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4LXFE2CBGJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'AW-18227521272');
+  gtag('config', 'G-4LXFE2CBGJ');
 
   function gtag_report_conversion(url) {
     var callback = function () {
@@ -19,21 +20,41 @@
         window.location = url;
       }
     };
+
+    // 1. Sends the conversion to Google Ads
     gtag('event', 'conversion', {
       'send_to': 'AW-18227521272/AWpcCNKllbwcEPjNx_ND',
       'value': 1.0,
       'currency': 'USD',
       'event_callback': callback
     });
+
+    // 2. NEW: Sends the exact same click event to GA4
+    gtag('event', 'click_to_etsy', {
+      'value': 1.0,
+      'currency': 'USD'
+    });
+
     return false;
   }
 
   function gtag_report_feature_click(feature) {
+    // Sends feature clicks to Google Ads
     gtag('event', 'feature_click', {
       feature_name: feature
     });
+
+    // 3. NEW: Sends feature clicks to GA4 so you can analyze them by channel
+    gtag('event', 'ga4_feature_click', {
+      'feature_name': feature
+    });
   }
 </script>
+
+
+
+
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="index, follow" />
