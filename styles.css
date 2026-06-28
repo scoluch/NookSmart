@@ -925,21 +925,41 @@ a.icon-tile:focus-visible {
   list-style: none;
 }
 
+.setup-toc li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .setup-toc a {
   display: inline-block;
-  padding: 0.45rem 0.85rem;
+  padding: 0.5rem 1rem;
   font-size: 0.9rem;
   font-weight: 600;
+  line-height: 1.3;
   text-decoration: none;
   color: var(--text-dark);
   background: var(--bg-light-muted);
-  border: 1px solid var(--border-light);
+  border: 1px solid rgba(26, 35, 50, 0.16);
   border-radius: 999px;
+  box-shadow: 0 1px 3px rgba(26, 35, 50, 0.08);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
 }
 
-.setup-toc a:hover {
+.setup-toc a:hover,
+.setup-toc a:focus-visible {
   color: var(--accent-blue);
-  border-color: rgba(61, 184, 232, 0.35);
+  border-color: rgba(61, 184, 232, 0.45);
+  box-shadow: 0 2px 8px rgba(61, 184, 232, 0.15);
+  text-decoration: none;
+}
+
+.band--light .setup-toc a {
+  background: var(--bg-light-muted);
+}
+
+.band--muted .setup-toc a {
+  background: var(--bg-light);
 }
 
 .setup-kv {
@@ -1006,12 +1026,20 @@ a.icon-tile:focus-visible {
   color: var(--text-dark-muted);
 }
 
+.setup-step-qr-wrap {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.75rem;
+  background: #fff;
+  border-radius: 8px;
+  line-height: 0;
+}
+
 .setup-step-qr {
   display: block;
-  width: min(100%, 180px);
-  margin-top: 0.75rem;
-  border-radius: 8px;
-  background: #fff;
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
 }
 
 .setup-footnote {
